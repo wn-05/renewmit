@@ -685,6 +685,7 @@ h3 {
     margin-top: 5px;
 }
 
+.vi_in2 p{line-height: 1.2;}
 .vi_in2_span {
     font-size: 14px;
     font-weight: normal;
@@ -810,11 +811,11 @@ h5 {
     padding: 0 18px;
 }
 
-.n_f_boder {
+.n_f_boder a {
     border-bottom: 1px solid rgba(176, 176, 176, 0)
 }
 
-.n_f_boder:hover {
+.n_f_boder a:hover {
     border-bottom: 1px solid rgba(176, 176, 176, 1);
 }
 
