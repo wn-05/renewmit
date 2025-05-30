@@ -126,9 +126,9 @@ a {
     margin-left: -450px;
     z-index: 99;
     background-color: #000;
+     box-shadow: 0 0 20px rgba(0, 0, 0, 1);
     height: 80px;
     width: 900px;
-    /* width: 100%; */
 
     mix-blend-mode: soft-light;
     opacity: 100%;

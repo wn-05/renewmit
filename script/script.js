@@ -9,11 +9,16 @@ var swiper1 = new Swiper(".Swiper1", {
     hide: true,
   },
   loop: true,
+  speed: 3000,
   autoplay: {
     delay: 3000,
     speed: 5000,
   }
 });
+
+
+
+
 
 // 프로그램
 var swiper = new Swiper(".Swiper2", {
