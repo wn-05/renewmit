@@ -39,6 +39,7 @@ var swiper = new Swiper(".Swiper2", {
 var swiper3 = new Swiper(".Swiper3", {
   pagination: {
     el: ".swiper-pagination-3",
+    clickable: true,
   },
   loop: true,
   autoplay: {
