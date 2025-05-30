@@ -111,7 +111,7 @@ a {
     top: 50%;
     left: 50%;
     margin-top: -60px;
-    margin-left: -412px;
+    margin-left: -390px;
     font-size: 40px;
     z-index: 99;
     color: #fff;
@@ -133,6 +133,41 @@ a {
     mix-blend-mode: soft-light;
     opacity: 100%;
 }
+
+/* 애니메이션 */
+/* .mb_pp 애니메이션 */
+@keyframes mb_pp-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* .mb_p 애니메이션 */
+@keyframes mb_p-fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px); /* 시작 시 원래 위치보다 위에 */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 애니메이션 적용 */
+.mb_pp {
+  opacity: 0;
+  animation: mb_pp-fade-in 3s ease-out forwards;
+}
+
+.mb_p {
+  opacity: 0;
+  animation: mb_p-fade-down 1s ease-out 0.8s forwards;
+}
+
 
 /*  */
 .Swiper1 {
